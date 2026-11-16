@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Allen's Plumbing Sewer and Drain Cleaning Services | Lansing, MI</title>
+<meta name="description" content="Allen's Plumbing Sewer and Drain Cleaning Services in Lansing, MI — open 24 hours. Water heater installation, drain cleaning, sewer main clearing, sewer line repair, and fixtures. Free estimates. Every one deserves a royal flush.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23c8102e'/><text x='16' y='23' font-size='19' font-family='Arial' font-weight='bold' fill='white' text-anchor='middle'>A</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Dancing+Script:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --red:#c8102e;
+    --red-dark:#a00d24;
+    --navy:#161616;
+    --navy-dark:#000000;
+    --blue:#c8102e;
+    --blue-light:#fdecec;
+    --teal:#c8102e;
+    --ink:#1c1c1c;
+    --muted:#5b5b5b;
+    --line:#e4e0e0;
+    --bg:#f7f5f5;
+    --white:#ffffff;
+    --amber:#f5b301;
+    --radius:14px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',system-ui,-apple-system,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+  h1,h2,h3,.brand{font-family:'Archivo',sans-serif}
+  a{color:var(--red);text-decoration:none}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+  /* Demo banner */
+  .demo-banner{background:var(--amber);color:#231a00;text-align:center;font-size:13px;font-weight:600;padding:9px 16px;line-height:1.45}
+  .demo-banner strong{letter-spacing:.08em}
+
+  /* Header */
+  header{background:var(--white);border-bottom:3px solid var(--red);position:sticky;top:0;z-index:50}
+  .header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 20px;max-width:1080px;margin:0 auto}
+  .brand-lockup{display:flex;flex-direction:column;align-items:flex-start;line-height:1}
+  .lockup-name{font-family:'Archivo',sans-serif;font-size:30px;font-weight:900;color:#111;letter-spacing:-.01em;text-shadow:2px 0 0 var(--red),-2px 0 0 var(--red),0 2px 0 var(--red),0 -2px 0 var(--red)}
+  .lockup-banner{margin-top:3px;background:var(--red);color:#fff;font-family:'Archivo',sans-serif;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:4px 9px}
+  .lockup-sub{margin-top:4px;font-family:'Archivo',sans-serif;font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#111}
+  .header-phone{display:inline-flex;align-items:center;gap:8px;background:var(--red);color:#fff;font-weight:600;font-size:15px;padding:10px 18px;border-radius:999px;white-space:nowrap}
+  .header-phone:hover{background:var(--red-dark)}
+  .header-phone svg{flex:none}
+
+  /* Hero */
+  .hero{background:linear-gradient(135deg,#161616 0%,#2b0a10 55%,#5c0e18 100%);color:#fff;padding:72px 0 64px}
+  .hero h1{font-size:clamp(32px,5vw,52px);font-weight:800;line-height:1.08;letter-spacing:-.01em;max-width:640px}
+  .hero h1 em{font-style:normal;color:#ff8f9e}
+  .hero-tagline{font-family:'Dancing Script',cursive;font-size:clamp(26px,3.4vw,34px);font-weight:700;color:#ff9aa8;margin-top:16px}
+  .hero p.lede{margin:14px 0 28px;font-size:18px;color:#e6d2d2;max-width:560px}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+  .btn{display:inline-flex;align-items:center;gap:9px;font-family:'Archivo',sans-serif;font-weight:700;font-size:16px;padding:14px 24px;border-radius:999px;border:2px solid transparent;cursor:pointer;transition:transform .12s ease,background .12s ease}
+  .btn:active{transform:scale(.98)}
+  .btn-call{background:var(--red);color:#fff}
+  .btn-call:hover{background:var(--red-dark)}
+  .btn-estimate{background:transparent;color:#fff;border-color:#fff}
+  .btn-estimate:hover{background:rgba(255,255,255,.12)}
+  .hero-note{margin-top:22px;font-size:14px;color:#c9a9a9}
+
+  /* Trust cards */
+  .trust{margin-top:-30px;position:relative;z-index:2}
+  .trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  .trust-card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:20px 18px;box-shadow:0 6px 20px rgba(22,22,22,.08)}
+  .trust-card .icon{width:42px;height:42px;border-radius:10px;background:var(--blue-light);display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+  .trust-card h3{font-size:16px;font-weight:700;color:var(--navy);margin-bottom:4px}
+  .trust-card p{font-size:14px;color:var(--muted)}
+  .trust-card p a{font-weight:600}
+
+  /* Sections */
+  section{padding:64px 0}
+  .section-head{max-width:640px;margin-bottom:28px}
+  .eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--red);margin-bottom:8px}
+  .section-head h2{font-size:clamp(26px,3.4vw,34px);font-weight:800;color:var(--navy);line-height:1.15}
+  .section-head p{margin-top:10px;color:var(--muted);font-size:16px}
+
+  /* Royal flush strip */
+  .flush{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:44px 0}
+  .flush-inner{display:flex;align-items:center;gap:36px}
+  .flush-cards{display:flex;flex:none}
+  .mini-card{width:56px;height:80px;background:#fff;border:1px solid #d8d2d2;border-radius:8px;box-shadow:0 4px 10px rgba(22,22,22,.18);display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:'Archivo',sans-serif;font-weight:800;color:var(--red);margin-left:-14px}
+  .mini-card:first-child{margin-left:0}
+  .mini-card:nth-child(1){transform:rotate(-14deg)}
+  .mini-card:nth-child(2){transform:rotate(-7deg)}
+  .mini-card:nth-child(3){transform:rotate(0deg)}
+  .mini-card:nth-child(4){transform:rotate(7deg)}
+  .mini-card:nth-child(5){transform:rotate(14deg)}
+  .mini-card .rank{font-size:19px;line-height:1}
+  .mini-card .suit{font-size:20px;line-height:1}
+  .flush-copy h2{font-family:'Dancing Script',cursive;font-size:clamp(26px,3.4vw,36px);font-weight:700;color:var(--red);line-height:1.2}
+  .flush-copy p{margin-top:8px;color:var(--muted);font-size:16px;max-width:560px}
+
+  /* Van photo */
+  .van-photo{padding-top:0}
+  .van-figure img{width:100%;border-radius:20px;display:block;box-shadow:0 10px 30px rgba(22,22,22,.16)}
+  .van-figure figcaption{margin-top:10px;color:var(--muted);font-size:14px;text-align:center}
+
+  /* Services */
+  .services{background:var(--bg)}
+  .service-tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:22px}
+  .search-box{flex:1;min-width:220px;display:flex;align-items:center;gap:9px;border:1px solid var(--line);border-radius:999px;padding:11px 16px;background:var(--white)}
+  .search-box input{border:none;outline:none;background:transparent;font-size:15px;width:100%;font-family:inherit;color:var(--ink)}
+  .filter-btns{display:flex;flex-wrap:wrap;gap:8px}
+  .filter-btn{border:1px solid var(--line);background:var(--white);color:var(--ink);font-family:'Inter',sans-serif;font-weight:600;font-size:14px;padding:9px 15px;border-radius:999px;cursor:pointer}
+  .filter-btn:hover{border-color:var(--red);color:var(--red)}
+  .filter-btn.active{background:var(--navy);border-color:var(--navy);color:#fff}
+  .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .service-card{border:1px solid var(--line);border-radius:var(--radius);padding:22px;background:var(--white);transition:box-shadow .15s ease,border-color .15s ease}
+  .service-card:hover{border-color:var(--red);box-shadow:0 8px 22px rgba(22,22,22,.08)}
+  .service-card .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--red);background:#fdecec;border-radius:999px;padding:4px 10px;margin-bottom:12px}
+  .service-card h3{font-size:18px;font-weight:700;color:var(--navy);margin-bottom:6px}
+  .service-card p{font-size:14.5px;color:var(--muted)}
+  .service-card .card-call{display:inline-block;margin-top:14px;font-weight:600;font-size:14px}
+  .no-results{display:none;text-align:center;color:var(--muted);padding:36px 0;font-size:15px}
+  .no-results.show{display:block}
+
+  /* Seasonal spotlight */
+  .spotlight{background:linear-gradient(120deg,#161616,#5c0e18);color:#fff;border-radius:20px;padding:40px 36px;display:grid;grid-template-columns:1.4fr 1fr;gap:32px;align-items:center}
+  .spotlight h2{font-size:clamp(24px,3vw,30px);font-weight:800;line-height:1.2}
+  .spotlight h2 em{font-style:normal;color:#ff8f9e}
+  .spotlight p{margin-top:12px;color:#e6d2d2;font-size:16px}
+  .spotlight-list{list-style:none;display:flex;flex-direction:column;gap:14px}
+  .spotlight-list li{display:flex;gap:12px;align-items:flex-start;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:12px;padding:14px 16px}
+  .spotlight-list .dot{flex:none;width:10px;height:10px;border-radius:50%;background:var(--red);margin-top:7px}
+  .spotlight-list strong{display:block;font-family:'Archivo',sans-serif;font-size:15px}
+  .spotlight-list span{font-size:14px;color:#e6d2d2}
+
+  /* How it works */
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;counter-reset:step}
+  .step{position:relative;border:1px solid var(--line);background:var(--white);border-radius:var(--radius);padding:24px 20px}
+  .step .num{width:40px;height:40px;border-radius:50%;background:var(--red);color:#fff;font-family:'Archivo',sans-serif;font-weight:800;font-size:17px;display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+  .step h3{font-size:17px;font-weight:700;color:var(--navy);margin-bottom:6px}
+  .step p{font-size:14.5px;color:var(--muted)}
+
+  /* Estimate form */
+  .estimate{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .estimate-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+  .estimate-copy p{color:var(--muted);font-size:16px;margin-top:10px}
+  .estimate-copy ul{list-style:none;margin-top:20px;display:flex;flex-direction:column;gap:10px}
+  .estimate-copy li{display:flex;gap:10px;align-items:flex-start;font-size:15px;color:var(--ink)}
+  .estimate-copy li svg{flex:none;margin-top:3px}
+  form{background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);padding:26px}
+  .field{margin-bottom:16px}
+  label{display:block;font-weight:600;font-size:14px;margin-bottom:6px;color:var(--navy)}
+  input[type=text],input[type=tel],select,textarea{width:100%;border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:15px;font-family:inherit;color:var(--ink);background:var(--white)}
+  input:focus,select:focus,textarea:focus{outline:2px solid var(--red);outline-offset:1px;border-color:var(--red)}
+  textarea{min-height:96px;resize:vertical}
+  .submit-btn{width:100%;justify-content:center;background:var(--red);color:#fff;border:none}
+  .submit-btn:hover{background:var(--red-dark)}
+  .form-note{margin-top:12px;font-size:13px;color:var(--muted);text-align:center}
+  .call-summary{display:none;margin-top:18px;border:1px solid #bfe3c8;background:#eef8f0;border-radius:12px;padding:18px}
+  .call-summary.show{display:block}
+  .call-summary h3{font-size:16px;color:#1d5c2e;margin-bottom:8px}
+  .call-summary p{font-size:14.5px;color:#2c4636;white-space:pre-line}
+  .call-summary .summary-actions{margin-top:12px;display:flex;flex-wrap:wrap;gap:10px}
+  .call-summary .btn{font-size:14px;padding:10px 18px}
+
+  /* Contact */
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .contact-card{border:1px solid var(--line);background:var(--white);border-radius:var(--radius);padding:28px}
+  .contact-card h3{font-size:19px;font-weight:700;color:var(--navy);margin-bottom:8px}
+  .contact-card p{color:var(--muted);font-size:15px;margin-bottom:16px}
+  .contact-card .big-phone{font-family:'Archivo',sans-serif;font-size:26px;font-weight:800;color:var(--navy)}
+  .contact-card .big-phone:hover{color:var(--red)}
+  .contact-card address{font-style:normal;font-size:16px;color:var(--ink);margin-bottom:16px}
+  .btn-outline{border:2px solid var(--navy);color:var(--navy);background:transparent}
+  .btn-outline:hover{background:var(--navy);color:#fff}
+
+  footer{background:#000;color:#9a9a9a;padding:28px 0;font-size:13.5px}
+  footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;align-items:center}
+  footer strong{color:#eee;font-family:'Archivo',sans-serif}
+
+  @media (max-width:860px){
+    .trust-grid{grid-template-columns:repeat(2,1fr)}
+    .service-grid{grid-template-columns:repeat(2,1fr)}
+    .steps{grid-template-columns:repeat(2,1fr)}
+    .spotlight{grid-template-columns:1fr;padding:30px 24px}
+    .estimate-grid,.contact-grid{grid-template-columns:1fr}
+    .flush-inner{flex-direction:column;align-items:flex-start;gap:24px}
+  }
+  @media (max-width:560px){
+    .header-phone span{display:none}
+    .header-phone{padding:10px 12px}
+    .lockup-name{font-size:24px}
+    .trust-grid,.service-grid,.steps{grid-template-columns:1fr}
+    section{padding:48px 0}
+    .hero{padding:56px 0 48px}
+  }
+</style>
+</head>
+<body>
+
+<div class="demo-banner"><strong>DEMO PREVIEW</strong> &nbsp;—&nbsp; This site was built for Allen's Plumbing Sewer and Drain Cleaning Services to preview. It is not live on their domain yet.</div>
+
+<header>
+  <div class="header-inner">
+    <div class="brand-lockup">
+      <span class="lockup-name">Allen&rsquo;s</span>
+      <span class="lockup-banner">Sewer &amp; Drain Cleaning</span>
+      <span class="lockup-sub">Plumbing Repairs &middot; Lansing, MI</span>
+    </div>
+    <a class="header-phone" href="tel:+15174856855">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>(517) 485-6855</span>
+    </a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Plumbing, drains &amp; water heaters — <em>done right.</em></h1>
+    <p class="hero-tagline">&ldquo;Every One Deserves A Royal Flush.&rdquo;</p>
+    <p class="lede">From a slow drain to a new water heater, Allen's Plumbing Sewer and Drain Cleaning Services handles the plumbing work that keeps your home running. Call and talk to a real person.</p>
+    <div class="hero-actions">
+      <a class="btn btn-call" href="tel:+15174856855">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call (517) 485-6855
+      </a>
+      <a class="btn btn-estimate" href="#estimate">Get a Free Estimate</a>
+    </div>
+    <p class="hero-note">Open 24 hours &middot; Free estimates &middot; Serving Lansing for 21 years</p>
+  </div>
+</section>
+
+<div class="wrap trust">
+  <div class="trust-grid">
+    <div class="trust-card">
+      <div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c8102e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15l2 2 4-4"/></svg></div>
+      <h3>Free Estimates</h3>
+      <p>Know what the job involves before any work starts.</p>
+    </div>
+    <div class="trust-card">
+      <div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c8102e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+      <h3>Open 24 Hours</h3>
+      <p>Day or night — emergency service available when you need it.</p>
+    </div>
+    <div class="trust-card">
+      <div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c8102e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg></div>
+      <h3>21 Years in Business</h3>
+      <p>Serving Lansing homes for over two decades.</p>
+    </div>
+    <div class="trust-card">
+      <div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c8102e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+      <h3>4.8 out of 5 Stars</h3>
+      <p>From 286 reviews. <a href="https://www.google.com/maps/search/?api=1&amp;query=Allen%27s+Plumbing+Sewer+and+Drain+Cleaning+Services+Lansing+MI" target="_blank" rel="noopener">Read reviews &rarr;</a></p>
+    </div>
+  </div>
+</div>
+
+<section class="flush">
+  <div class="wrap flush-inner">
+    <div class="flush-cards" aria-hidden="true">
+      <span class="mini-card"><span class="rank">10</span><span class="suit">&diams;</span></span>
+      <span class="mini-card"><span class="rank">J</span><span class="suit">&diams;</span></span>
+      <span class="mini-card"><span class="rank">Q</span><span class="suit">&diams;</span></span>
+      <span class="mini-card"><span class="rank">K</span><span class="suit">&diams;</span></span>
+      <span class="mini-card"><span class="rank">A</span><span class="suit">&diams;</span></span>
+    </div>
+    <div class="flush-copy">
+      <h2>&ldquo;Every One Deserves A Royal Flush.&rdquo;</h2>
+      <p>That&rsquo;s the motto on Allen&rsquo;s trucks — drain work done right, at an honest price. No runaround, no surprises.</p>
+    </div>
+  </div>
+</section>
+
+<section class="van-photo">
+  <div class="wrap">
+    <figure class="van-figure">
+      <img src="van.jpg" alt="Allen's Plumbing work van with the company lettering and royal flush" onerror="this.closest('.van-photo').style.display='none'">
+      <figcaption>Allen&rsquo;s work van &mdash; &ldquo;Every One Deserves A Royal Flush.&rdquo;</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">What we do</div>
+      <h2>Services</h2>
+      <p>Search or filter to find the work you need. Not sure what the problem is? Call and describe it — we'll help you figure it out.</p>
+    </div>
+    <div class="service-tools">
+      <div class="search-box">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#5b5b5b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        <input type="text" id="serviceSearch" placeholder="Search services — try &quot;drain&quot; or &quot;water heater&quot;" aria-label="Search services">
+      </div>
+      <div class="filter-btns" id="filterBtns">
+        <button class="filter-btn active" data-filter="all" type="button">All</button>
+        <button class="filter-btn" data-filter="water-heaters" type="button">Water Heaters</button>
+        <button class="filter-btn" data-filter="drains-sewer" type="button">Drains &amp; Sewer</button>
+        <button class="filter-btn" data-filter="fixtures" type="button">Fixtures</button>
+        <button class="filter-btn" data-filter="water-safety" type="button">Water Safety</button>
+      </div>
+    </div>
+    <div class="service-grid" id="serviceGrid">
+      <article class="service-card" data-category="water-heaters">
+        <span class="tag">Water Heaters</span>
+        <h3>Water Heater Installation</h3>
+        <p>New water heater installed and connected so your home has hot water when you need it.</p>
+        <a class="card-call" href="tel:+15174856855">Call for a free estimate →</a>
+      </article>
+      <article class="service-card" data-category="drains-sewer">
+        <span class="tag">Drains &amp; Sewer</span>
+        <h3>Sewer Main Clearing</h3>
+        <p>Clearing blockages in the main sewer line that serves your home.</p>
+        <a class="card-call" href="tel:+15174856855">Call for a free estimate →</a>
+      </article>
+      <article class="service-card" data-category="drains-sewer">
+        <span class="tag">Drains &amp; Sewer</span>
+        <h3>Drain Cleaning</h3>
+        <p>Cleaning out slow or clogged drains around the home.</p>
+        <a class="card-call" href="tel:+15174856855">Call for a free estimate →</a>
+      </article>
+      <article class="service-card" data-category="drains-sewer">
+        <span class="tag">Drains &amp; Sewer</span>
+        <h3>Sewer Line Dig-Up &amp; Repair</h3>
+        <p>Dig-up and repair of damaged sewer lines — the job Allen&rsquo;s specializes in.</p>
+        <a class="card-call" href="tel:+15174856855">Call for a free estimate →</a>
+      </article>
+      <article class="service-card" data-category="fixtures">
+        <span class="tag">Fixtures</span>
+        <h3>Bathtub Installation</h3>
+        <p>New bathtub installed as part of your bathroom plumbing.</p>
+        <a class="card-call" href="tel:+15174856855">Call for a free estimate →</a>
+      </article>
+      <article class="service-card" data-category="fixtures">
+        <span class="tag">Fixtures</span>
+        <h3>Faucets, Fixtures &amp; Pipes</h3>
+        <p>Faucets, fixtures, and pipe work for kitchens, bathrooms, and around the home.</p>
+        <a class="card-call" href="tel:+15174856855">Call for a free estimate →</a>
+      </article>
+      <article class="service-card" data-category="water-safety">
+        <span class="tag">Water Safety</span>
+        <h3>Backflow Preventer Installation</h3>
+        <p>Backflow preventer installed to help keep your water supply protected.</p>
+        <a class="card-call" href="tel:+15174856855">Call for a free estimate →</a>
+      </article>
+    </div>
+    <p class="no-results" id="noResults">No services match that search. Try a different word, or call <a href="tel:+15174856855">(517) 485-6855</a>.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="spotlight">
+      <div>
+        <div class="eyebrow" style="color:#ff8f9e">Mid-November in Michigan</div>
+        <h2>Cold weather is coming. <em>Get ahead of it.</em></h2>
+        <p>Winter puts extra strain on plumbing. Two jobs worth handling before the holidays and the deep freeze:</p>
+      </div>
+      <ul class="spotlight-list">
+        <li>
+          <span class="dot"></span>
+          <div><strong>Water heater check before winter</strong><span>Make sure your water heater is ready for the cold months ahead.</span></div>
+        </li>
+        <li>
+          <span class="dot"></span>
+          <div><strong>Drains cleared before the holidays</strong><span>Clear slow drains now, before guests and holiday cooking put them to the test.</span></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">How it works</div>
+      <h2>Simple, start to finish</h2>
+      <p>No runaround. Here's how a job with Allen's Plumbing works.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><h3>Call</h3><p>Call (517) 485-6855 and tell us what's going on — any time, day or night.</p></div>
+      <div class="step"><div class="num">2</div><h3>Free Estimate</h3><p>Get a free estimate for the work you need.</p></div>
+      <div class="step"><div class="num">3</div><h3>Repair or Install</h3><p>We do the repair or installation as agreed.</p></div>
+      <div class="step"><div class="num">4</div><h3>Done Right</h3><p>The job is finished and your plumbing is back to working order.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="estimate" id="estimate">
+  <div class="wrap">
+    <div class="estimate-grid">
+      <div class="estimate-copy">
+        <div class="eyebrow">Free estimate</div>
+        <h2 style="font-size:clamp(26px,3.4vw,34px);font-weight:800;color:var(--navy);line-height:1.15">Tell us what you need</h2>
+        <p>Fill out the form and you'll get a ready-to-read summary you can use when you call. Nothing here is sent to a server — the call is how jobs get booked.</p>
+        <ul>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c8102e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Free estimates — no obligation</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c8102e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Water heaters, drains, sewer mains, and fixtures</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c8102e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Open 24 hours — emergency service available</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c8102e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Based in Lansing, MI — 21 years in business</li>
+        </ul>
+      </div>
+      <div>
+        <form id="estimateForm" novalidate>
+          <div class="field">
+            <label for="fName">Your name</label>
+            <input type="text" id="fName" name="name" placeholder="Your full name" required>
+          </div>
+          <div class="field">
+            <label for="fPhone">Phone number</label>
+            <input type="tel" id="fPhone" name="phone" placeholder="(517) 555-1234" required>
+          </div>
+          <div class="field">
+            <label for="fService">Service needed</label>
+            <select id="fService" name="service" required>
+              <option value="" selected>Choose a service…</option>
+              <option>Water Heater Installation</option>
+              <option>Backflow Preventer Installation</option>
+              <option>Bathtub Installation</option>
+              <option>Faucets, Fixtures &amp; Pipes</option>
+              <option>Sewer Main Clearing</option>
+              <option>Sewer Line Dig-Up &amp; Repair</option>
+              <option>Drain Cleaning</option>
+              <option>Not sure — need help figuring it out</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="fDesc">What&rsquo;s going on? (a few words is fine)</label>
+            <textarea id="fDesc" name="description" placeholder="e.g. Kitchen sink drains slowly and gurgles"></textarea>
+          </div>
+          <button class="btn submit-btn" type="submit">Build My Call Summary</button>
+          <p class="form-note">This form doesn&rsquo;t send anything anywhere. It builds a summary for your call.</p>
+        </form>
+        <div class="call-summary" id="callSummary" aria-live="polite">
+          <h3>Your call summary — ready to read</h3>
+          <p id="summaryText"></p>
+          <div class="summary-actions">
+            <a class="btn btn-call" href="tel:+15174856855">Call (517) 485-6855</a>
+            <button class="btn btn-outline" type="button" id="copySummary">Copy Summary</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Contact</div>
+      <h2>Get in touch</h2>
+      <p>The fastest way to reach us is by phone — any hour, any day.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Call us</h3>
+        <p>Call to ask a question, get a free estimate, or book a job. Open 24 hours.</p>
+        <a class="big-phone" href="tel:+15174856855">(517) 485-6855</a>
+        <div style="margin-top:18px"><a class="btn btn-call" href="tel:+15174856855">Tap to Call</a></div>
+      </div>
+      <div class="contact-card">
+        <h3>Visit us</h3>
+        <address>409 W Mt Hope Ave<br>Lansing, MI 48910</address>
+        <p style="margin-bottom:16px">Open 24 hours</p>
+        <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&amp;query=409+W+Mt+Hope+Ave+Lansing+MI" target="_blank" rel="noopener">Open in Google Maps →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div><strong>Allen's Plumbing Sewer and Drain Cleaning Services</strong><br>409 W Mt Hope Ave, Lansing, MI 48910 · (517) 485-6855 · Open 24 hours</div>
+    <div>Demo preview — this site is not live on their domain yet.</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // --- Service search + filter ---
+  var searchInput = document.getElementById('serviceSearch');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.service-card'));
+  var noResults = document.getElementById('noResults');
+  var activeFilter = 'all';
+
+  function applyFilters(){
+    var q = (searchInput.value || '').trim().toLowerCase();
+    var visible = 0;
+    cards.forEach(function(card){
+      var text = card.textContent.toLowerCase();
+      var matchesSearch = !q || text.indexOf(q) !== -1;
+      var matchesFilter = activeFilter === 'all' || card.getAttribute('data-category') === activeFilter;
+      var show = matchesSearch && matchesFilter;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    noResults.classList.toggle('show', visible === 0);
+  }
+
+  searchInput.addEventListener('input', applyFilters);
+
+  document.getElementById('filterBtns').addEventListener('click', function(e){
+    var btn = e.target.closest('.filter-btn');
+    if (!btn) return;
+    document.querySelectorAll('.filter-btn').forEach(function(b){ b.classList.remove('active'); });
+    btn.classList.add('active');
+    activeFilter = btn.getAttribute('data-filter');
+    applyFilters();
+  });
+
+  // --- Estimate form: build call summary (nothing submitted) ---
+  var form = document.getElementById('estimateForm');
+  var summaryBox = document.getElementById('callSummary');
+  var summaryText = document.getElementById('summaryText');
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var name = document.getElementById('fName').value.trim();
+    var phone = document.getElementById('fPhone').value.trim();
+    var service = document.getElementById('fService').value;
+    var desc = document.getElementById('fDesc').value.trim();
+
+    if (!name || !phone || !service) {
+      summaryText.textContent = 'Please fill in your name, phone number, and the service you need, then try again.';
+      summaryBox.classList.add('show');
+      summaryBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      return;
+    }
+
+    var lines = [];
+    lines.push('Hi, my name is ' + name + '.');
+    lines.push('My phone number is ' + phone + '.');
+    lines.push('I need help with: ' + service + '.');
+    if (desc) lines.push('What\'s going on: ' + desc);
+    lines.push('I\'d like a free estimate, please.');
+    summaryText.textContent = lines.join('\n');
+    summaryBox.classList.add('show');
+    summaryBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  });
+
+  document.getElementById('copySummary').addEventListener('click', function(){
+    var text = summaryText.textContent;
+    var done = function(){ this.textContent = 'Copied!'; setTimeout(function(btn){ btn.textContent = 'Copy Summary'; }.bind(null, this), 2000); }.bind(this);
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function(){ fallbackCopy(text); done(); });
+    } else {
+      fallbackCopy(text); done();
+    }
+  });
+
+  function fallbackCopy(text){
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand('copy'); } catch (err) {}
+    document.body.removeChild(ta);
+  }
+})();
+</script>
+</body>
+</html>
